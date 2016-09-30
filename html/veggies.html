@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="../css/main.css" type="text/css" />
+	<script src="../js/scriptfile.js"></script>
+	<title>Patio Gardening</title>
+</head>
+<body>
+<div id="head">
+		<div id="headContent">
+			<a href="index.html" id="title"><h1>Patio Gardening</h1></a>
+			<ul id="menu">
+				<li><a href="index.html" class="menuItem">Home</a></li>
+				<li><a href="veggies.html" class="menuItemSelected menuItem">Veggies</a></li>
+				<li><a href="" class="menuItem">Fruits</a></li>
+				<li><a href="" class="menuItem">Herbs</a></li>
+				<li id="searchContainer">
+					<input type="text" id="search"  placeholder="Item Search...">
+					<a href="cherryTomato.html" id="searchButton"><img src="http://www.clker.com/cliparts/y/d/E/G/I/C/search-icon-marine-hi.png" id="glass" height="20" width="20"></a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div id="introContainer">
+		<p id="intro">We all love eating fresh veggies but maintianing a garden can be time consuming and difficult with limited space in an urban setting. Patio Gardening is a great alternative for those with little time or space, and serves as an accessible and easy way for us all to enjoy a green space with veggies, fruits and herbs! Browse around this Patio Gardening guide where you can find all sorts of helpful information.</p>
+	</div>
+	<div id="content">
+		<div id="leftPage">
+			<div class="itemWindow">
+				<div class="vegPics">
+					<div id="row1">
+						<a href="">Beans - Green<img src="../extras/veggies/greenbeans.jpg" alt="Green Beans Image" id="greenBeans" draggable="true" ondragstart="drag(event)"></a>
+						<a href="">Carrots - Baby<img src="../extras/veggies/babycarrots.jpg" alt="Baby Carrots Image" id="babyCarrots" draggable="true" ondragstart="drag(event)"></a>
+						<a href="">Celery<img src="../extras/veggies/celery.jpg" alt="Celery Image" id="celery" draggable="true" ondragstart="drag(event)"></a>
+						<a href="cherrytomato.html">Cherry Tomato<img src="../extras/veggies/cherrytomatos.jpg" alt="Cherry Tomato Image" id="CherryToms" draggable="true" ondragstart="drag(event)"></a>
+					</div>
+					<div id="row2">
+						<a href="">Chives<img src="../extras/veggies/chives.jpg" alt="Chives Image" id="chives" draggable="true" ondragstart="drag(event)"></a>
+						<a href="">Cucumber<img src="../extras/veggies/cucumber.jpg" alt="Cucumber Image" id="cucumber" draggable="true" ondragstart="drag(event)"></a>
+						<a href="">Eggplant<img src="../extras/veggies/eggplant.jpg" alt="Eggplant Image" id="eggplant" draggable="true" ondragstart="drag(event)"></a>
+						<a href="">Lettuce - Red<img src="../extras/veggies/redlettuce.jpg" alt="Red Luttuce Image" id="lettuceRL" draggable="true" ondragstart="drag(event)"></a>
+					</div>
+					<div id="row3">
+						<a href="">Peas - Snow<img src="../extras/veggies/snowpeas.jpg" alt="Snow Peas Image" id="snowpeas" draggable="true" ondragstart="drag(event)"></a>
+						<a href="">Peas - Snow<img src="../extras/veggies/snowpeas.jpg" alt="Snow Peas Image" id="snowpeas" draggable="true" ondragstart="drag(event)"></a>
+						<a href="">Peas - Snow<img src="../extras/veggies/snowpeas.jpg" alt="Snow Peas Image" id="snowpeas" draggable="true" ondragstart="drag(event)"></a>
+						<a href="">Peas - Snow<img src="../extras/veggies/snowpeas.jpg" alt="Snow Peas Image" id="snowpeas" draggable="true" ondragstart="drag(event)"></a>
+					</div>
+					<div id="row4">
+						<a href="">Peas - Snow<img src="../extras/veggies/snowpeas.jpg" alt="Snow Peas Image" id="snowpeas" draggable="true" ondragstart="drag(event)"></a>
+						<a href="">Peas - Snow<img src="../extras/veggies/snowpeas.jpg" alt="Snow Peas Image" id="snowpeas" draggable="true" ondragstart="drag(event)"></a>
+						<a href="">Peas - Snow<img src="../extras/veggies/snowpeas.jpg" alt="Snow Peas Image" id="snowpeas" draggable="true" ondragstart="drag(event)"></a>
+						<a href="">Peas - Snow<img src="../extras/veggies/snowpeas.jpg" alt="Snow Peas Image" id="snowpeas" draggable="true" ondragstart="drag(event)"></a>
+					</div>
+					<div id="row5">
+						<a href="">Peas - Snow<img src="../extras/veggies/snowpeas.jpg" alt="Snow Peas Image" id="snowpeas" draggable="true" ondragstart="drag(event)"></a>
+						<a href="">Peas - Snow<img src="../extras/veggies/snowpeas.jpg" alt="Snow Peas Image" id="snowpeas" draggable="true" ondragstart="drag(event)"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="rightPage">
+			<div id="header">
+				<a href="mygarden.html" id="myGardButton">My Garden</a>
+			</div>
+			<div id="drop" ondrop="drop(event)" ondragover="allowDrop(event)"><p><b>Drag images of desired items to add to garden...<b></p>
+			</div>
+			<button type="button" onclick="removeAll()">
+				Remove all items from Garden
+			</button>
+		</div>
+	</div>	
+	<footer>
+		<a href="designdocumentation.html">Design Documentation</a>
+		<a href="usabilitydocumentation.html">Usability Documentation</a>
+	</footer>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="../css/main.css" type="text/css" />
+	<script src="../js/scriptfile.js"></script>
+	<title>Patio Gardening</title>
+</head>
+<body>
+	<div id="head">
+		<div id="headContent">
+			<a href="index.html" id="title"><h1>Patio Gardening</h1></a>
+			<ul id="menu">
+				<li>
+					<div>
+						<a href="index.html" class="menuItemSelected menuItem">Home</a>
+						<a href="veggies.html" class="menuItem">Veggies</a>
+						<a href="" class="menuItem">Fruits</a>
+						<a href="" class="menuItem">Herbs</a>
+					</div>
+				</li>
+				<li id="searchContainer">
+					<input type="text" id="search"  placeholder="Item Search...">
+					<a href="cherryTomato.html" id="searchButton"><img src="http://www.clker.com/cliparts/y/d/E/G/I/C/search-icon-marine-hi.png" id="glass" height="20" width="20"></a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div id="introContainer">
+		<p id="intro">We all love eating fresh veggies but maintianing a garden can be time consuming and difficult with limited space in an urban setting. Patio Gardening is a great alternative for those with little time or space, and serves as an accessible and easy way for us all to enjoy a green space with veggies, fruits and herbs! Browse around this Patio Gardening guide where you can find all sorts of helpful information.</p>
+	</div>
+	<div id="content">
+		<div id="leftPage">
+			<div class="itemWindow">
+				<h2>Veggie of the Week</h2>
+				<div id="leftSideHome">
+					<h4>Cherry Tomato</h4>
+					<img src="../extras/veggies/cherrytomatos.jpg" alt="Cherry Tomato Image" id="CherryTomPic" height="142" width="193" draggable="true" ondragstart="drag(event)">
+				</div>
+				<div id="rightSideHome">
+					<p>Cherry tomatoes range in size from a thumbtip up to the size of a golf ball, and can range from being spherical to slightly oblong in shape. They are very easy to grow, require little care, and are great for beginners to get there garden started! Click on "More Info" to find out more about what is required to grow them and to find links to guides about how to grow them.</p>
+					<a href="cherrytomato.html" >More Info</a>
+				</div>
+			</div>
+		</div>
+		<div id="rightPage">
+			<div id="header">
+				<a href="mygarden.html" id="myGardButton">My Garden</a>
+			</div>
+			<div id="drop" ondrop="drop(event)" ondragover="allowDrop(event)"><p><b>Drag images of desired items to add to garden...<b></p>
+			</div>
+			<button type="button" onclick="removeAll()">
+				Remove all items from Garden
+			</button>
+		</div>
+	</div>	
+	<footer>
+		<a href="designdocumentation.html">Design Documentation</a>
+		<a href="usabilitydocumentation.html">Usability Documentation</a>
+	</footer>
+</body>
+</html>
